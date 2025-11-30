@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    background: linear-gradient(#7e7d7d, #434242);
+    background: linear-gradient(#d3d3d3, #b7b6b6);
     padding: 0px 15px;
 }
 
@@ -21,7 +21,7 @@ body {
 
 /* Columna izquierda */
 .columna-izq {
-    background: #b1b1b1;
+    background: #f3f3f3;
     color: rgb(41, 41, 41);
     padding: 45px 35px;
 }
@@ -134,6 +134,7 @@ body {
 /* Columna derecha */
 .columna-der {
     padding: 45px 50px;
+    background-color: #dfdede;
 }
 
 .subtitulo {
@@ -210,13 +211,13 @@ body {
 .estudio {
     margin-bottom: 25px;
     padding: 18px;
-    background: #dbdbdb;
-    border-left: 3px solid #474747;
+    background: #f2f2f2;
+    border-left: 3px solid #565656;
 }
 
 .estudio:hover {
     transform: translateX(8px);
-    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 12px 12px rgba(0,0,0,0.12);
     transition: all 0.25s;
 }
 
